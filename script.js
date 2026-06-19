@@ -11,28 +11,33 @@
 // console.log(profile);
 
 
-// let num = prompt("Enter the number");
-// if(num%5 === 0)
-// {
-//     console.log("The number is multiple by 5");
-// }
-// else{
-//     console.log("The number is not multiple by 5");
+// // let num = prompt("Enter the number");
+// // if(num%5 === 0)
+// // {
+// //     console.log("The number is multiple by 5");
+// // }
+// // else{
+// //     console.log("The number is not multiple by 5");
+// // }
+
+// let marks = prompt("Enter the marks");
+// let Grade;
+// if (marks >=90 && marks <=100) {
+    
+//     console.log("Grade A");
+// }else if (marks >=80 && marks <90) {
+//     console.log("Grade B");
+// } else if (marks >=70 && marks <80) {
+//     console.log("Grade C");
+// } else if (marks >=60 && marks <70) {
+//     console.log("Grade D");
+// } else if (marks >=0 && marks <60) {
+//     console.log("Grade F");
+// } else {
+//     console.log("Invalid marks");
 // }
 
-let marks = prompt("Enter the marks");
-let Grade;
-if (marks >=90 && marks <=100) {
-    
-    console.log("Grade A");
-}else if (marks >=80 && marks <90) {
-    console.log("Grade B");
-} else if (marks >=70 && marks <80) {
-    console.log("Grade C");
-} else if (marks >=60 && marks <70) {
-    console.log("Grade D");
-} else if (marks >=0 && marks <60) {
-    console.log("Grade F");
-} else {
-    console.log("Invalid marks");
-}
+
+let fullName = prompt("Enter your full name");
+let userName = "@" + fullName + fullName.length;
+console.log(userName);
