@@ -1,57 +1,8 @@
-<<<<<<< HEAD
-// const profile = {
-//     name :"Yash",
-//     isFollowed : false,
-//     postCount : 195,
-//     follwersCount : 569,
-//     followingCount : 4,
-//     Expeince : "2 years",
-//     about : "I am a web developer and designer. I have been working in this field for 2 years. I have a lot of experience in web development and design. I have worked on many projects and have a lot of experience in this field. I am a very passionate person and I love to learn new things. I am always looking for new opportunities to learn and grow in this field."
-    
-// };
-// console.log(profile);
+let prices=[250,645,300,900,50]
 
-
-// // let num = prompt("Enter the number");
-// // if(num%5 === 0)
-// // {
-// //     console.log("The number is multiple by 5");
-// // }
-// // else{
-// //     console.log("The number is not multiple by 5");
-// // }
-
-// let marks = prompt("Enter the marks");
-// let Grade;
-// if (marks >=90 && marks <=100) {
-    
-//     console.log("Grade A");
-// }else if (marks >=80 && marks <90) {
-//     console.log("Grade B");
-// } else if (marks >=70 && marks <80) {
-//     console.log("Grade C");
-// } else if (marks >=60 && marks <70) {
-//     console.log("Grade D");
-// } else if (marks >=0 && marks <60) {
-//     console.log("Grade F");
-// } else {
-//     console.log("Invalid marks");
-// }
-
-
-let fullName = prompt("Enter your full name");
-let userName = "@" + fullName + fullName.length;
-console.log(userName);
-=======
-const profile = {
-    name :"Yash",
-    isFollowed : false,
-    postCount : 195,
-    follwersCount : 569,
-    followingCount : 4,
-    Expeince : "2 years",
-    about : "I am a web developer and designer. I have been working in this field for 2 years. I have a lot of experience in web development and design. I have worked on many projects and have a lot of experience in this field. I am a very passionate person and I love to learn new things. I am always looking for new opportunities to learn and grow in this field."
-    
-};
-console.log(profile);
->>>>>>> f5d1db36661a7df7dde01c21031bb650c416a5dc
+for(let i=0;i<prices.length;i++){
+    let offer = prices[i]/10;
+    prices[i]=prices[i]-offer;
+}
+console.log(prices)
+prompt("The discounted prices are: " + prices.join(", "));
