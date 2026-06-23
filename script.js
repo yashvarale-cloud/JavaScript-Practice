@@ -12,14 +12,46 @@
 // companies.push("Amazon")
 // console.log(companies)
 
-function countVowels(str){
+// function countVowels(str){
+//     let count = 0;
+//     for(let i=0;i<str.length;i++){
+//         if(str[i]=="a" || str[i]=="e" || str[i]=="i" || str[i]=="o" || str[i]=="u"){
+//             count++;
+
+    
+//         }
+//     }
+//     return count;
+// }
+// let result = countVowels("lorem ipsum dolor sit amet");
+// console.log(result)
+
+
+let countVowels = (str)=>{
     let count = 0;
-    for(let i=0;i<str.length;i++){
-        if(str[i]=="a" || str[i]=="e" || str[i]=="i" || str[i]=="o" || str[i]=="u"){
+    for(i of str){
+        if(i=="a" || i=="e" || i=="i" || i=="o" || i=="u"){
             count++;
+            
         }
     }
     return count;
 }
 let result = countVowels("lorem ipsum dolor sit amet");
 console.log(result)
+
+
+let countVowels = (str)=>{
+    let count = 0;
+    for(i of str){
+        if(i=="a" || i=="e" || i=="i" || i=="o" || i=="u"){
+            count++;
+            
+        }
+    }
+    return count;
+}
+let result = countVowels("lorem ipsum dolor sit amet");
+console.log(result)
+
+
