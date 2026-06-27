@@ -91,3 +91,9 @@ for(div of divs){
     div.innerText = `This is Unique ${idx}`;
     idx++;
 }
+let divs = document.querySelectorAll(".box");
+let idx = 1;
+for(div of divs){
+    div.innerText = `This is Unique ${idx}`;
+    idx++;
+}
